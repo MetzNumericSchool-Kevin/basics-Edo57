@@ -16,7 +16,7 @@ if (OpenorNot === true) {
   console.log("Sorry, we are closed today.");
 }
 const choice = prompt(
-  "What can we offer you today? 1. Name of our shop 2. Name of the wizard 3. Price of the potions 4. Number of potions?"
+  "What can we offer you today? 1. Name of our shop 2. Name of the wizard 3. Price of the potions if you want to buy 4. Number of potions?"
 );
 switch (choice) {
   case "1":
@@ -30,6 +30,7 @@ switch (choice) {
     break;
   case "4":
     console.log("We have " + mypotions + " potions in stock.");
+        
     break;
   default:
     console.log("Invalid choice.");
